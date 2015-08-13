@@ -17,7 +17,7 @@ td {font-size:12; color: #000000}
 .ck {border:0}
 
 .head {background-color: #75F5FF; border-color: #05CBFF; border-style: solid; border-width: 1px}
-.button {padding: 10px 1px 10px 0px; width:150px; height:20px; background-color: #FFFFFF; border-color: #EBECF4; border-style: solid; border-width: 1px; margin-right:2px; text-align: center}
+.button {width:170px; height:20px; background-color: #FFFFFF; border-color: #EBECF4; border-style: solid; border-width: 1px; margin-right:2px; text-align: center}
 
 .box {background-color: #FFFFFF; border-color: #EBECF4; border-style: solid; border-width: 1px}
 .msg {width:400px; margin:50px; margin-left:auto; margin-right:auto; padding:20px; background-color: #FFFFFF; border-color: #EBECF4; border-style: solid; border-width: 1px}
