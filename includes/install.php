@@ -14,6 +14,7 @@ function installTVStream() {
     add_option('tv_stream_version', $version);
 
   //add default values of options
+  add_option('tv_stream_utc_diff', 0);
   add_option('tv_stream_php_buffer', 20);
   add_option('tv_stream_safe_db', 1);
 

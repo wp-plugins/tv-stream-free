@@ -23,7 +23,6 @@ function TVStreamShow() {
   <tr>
     <td class=\"button\"><a href=\"?".$tv_stream->varsQuery("page",1)."&action=add\"><img src=\"$url_imgs/add.gif\" border=0 alt=\"".TV_STREAM_NAME."\"></a>$g_n<a href=\"?".$tv_stream->varsQuery("page",1)."&action=add\">Add live event</a></td>
     <td class=\"button\"><a href=\"?".$tv_stream->varsQuery("page",1)."&action=show\"><img src=\"$url_imgs/show.gif\" border=0 alt=\"".TV_STREAM_NAME."\"></a>$g_n<a href=\"?".$tv_stream->varsQuery("page",1)."&action=show\">Show live events</a></td>
-    <td class=\"button\"><a href=\"?".$tv_stream->varsQuery("page",1)."&action=opt\"><img src=\"$url_imgs/opt.gif\" border=0 alt=\"".TV_STREAM_NAME."\"></a>$g_n<a href=\"?".$tv_stream->varsQuery("page",1)."&action=opt\">Options</a></td>
   </tr></table><br>";
 
   if ($action=="add") {
